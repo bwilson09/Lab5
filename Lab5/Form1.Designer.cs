@@ -184,6 +184,7 @@
             this.radOneRoll.TabStop = true;
             this.radOneRoll.Text = "One Roll";
             this.radOneRoll.UseVisualStyleBackColor = true;
+            this.radOneRoll.CheckedChanged += new System.EventHandler(this.radOneRoll_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -372,6 +373,7 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.btnRollDice;
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(907, 356);
